@@ -1,0 +1,178 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;  
+ 
+ body {
+  font-family: 'Inria Serif', Georgia, "Times New Roman", serif;
+  color: #4b2f32;
+}  
+
+/* Your global reset or styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Navbar starts here*/
+/* Navbar container */
+header nav {
+  box-shadow: 0 2px 4px rgb(0 0 0 / 0.1);
+  position: sticky;
+}
+
+/* Logo image 
+header nav img {
+  height: 90px;
+  cursor: pointer;
+}
+
+/* Navigation list */
+header nav ul {
+  gap: 40px;
+  padding: 0;
+  font-size: larger;
+  margin: 70px;
+}
+
+/* Navigation items 
+header nav ul li {
+  font-weight: 600;
+}
+
+/* Nav links 
+header nav ul li a {
+  text-decoration: none;
+  color: #4b2f32;
+  font-size: 1.2rem;
+  padding: 8px 12px;
+  transition: color 0.3s ease, background-color 0.3s ease;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+/* Hover effect 
+header nav ul li a:hover {
+  color: #895b60; 
+}  
+
+/* Home page starts here*/
+/* Homepage container1 */
+
+.container {
+  margin-top: 80px;
+}
+
+/*
+.textArea {
+  color:#895B60;
+  font-family: 'Inria Serif', Georgia, "Times New Roman", serif;
+}  */
+
+.textArea h1 {
+  font-size: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}  
+
+.homecoffeecup {
+  width: 35%;
+}
+
+.btn1 , .btn2 {
+  margin: 0px;
+  margin-top:20px;
+  margin-bottom: 30px;
+  padding: 10px 22px;
+  font-size: 18px;
+  background-color: white;
+  border: 2px solid #4b2f32;
+}
+
+.btn1 {
+  margin-right: 30px;
+}
+
+.btn2 ,.btn1:hover {
+  color: white;
+  background-color: #4b2f32;
+}
+
+.btn2 {
+  font-size: 19.5px;
+}
+
+.btn2:hover {
+  color: #4b2f32;
+  background-color: white;
+}
+
+/*
+.beanborder1 {
+  width: 100%;
+}  */
+
+/* Homepage Container2 starts here */
+.container2 {
+    background-color: #392d2f;
+}
+
+.textArea2 h1 {
+  font-size: 1.8rem;
+  margin-top: 18px;
+  margin-bottom: 18px; 
+  color: white;
+}
+
+.textArea2 h3 {
+  margin-top: 50px;
+  font-size: 1.6rem;
+}
+
+.btn3 {
+  margin-top: 20px;
+  margin-bottom: 80px;
+  color: white;
+  background-color: transparent ;
+  border: 2px solid white;
+}
+
+.btn3:hover {
+  color: white;
+  background-color: #A8603D;
+  border: 2px solid #A8603D;
+}
+
+/* homepage container3 starts here */
+
+.beanbag {
+  width: 35%;
+}
+
+.textArea3 {
+  font-size: 1.2rem;
+  background-color: #654749;
+}
+
+.btn4 {
+  background-color: #A8603D;
+}
+
+.btn4:hover {
+  color: white;
+}
+
+/* Homepage container4 starts here */
+.textArea4 {
+  font-size: 18px;
+  min-width: 550px;
+}
+
+.textArea4 h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* FullMenu page starts here */
+
